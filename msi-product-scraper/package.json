@@ -1,0 +1,14 @@
+{
+  "name": "msi-product-scraper",
+  "version": "1.0.0",
+  "description": "MSI Product Page Scraper Test Task",
+  "main": "src/scrape.js",
+  "scripts": {
+    "scrape": "node src/scrape.js"
+  },
+  "dependencies": {
+    "playwright": "^1.49.0",
+    "playwright-extra": "^4.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
+  }
+}
